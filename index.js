@@ -65,11 +65,8 @@ function grade(marks){
         result = 'D';
         return result;
     }
-    else{
-        result = 'F';
-        return result;
-    }
+    return 'F';
 }
-let studentMarks = 33;
+let studentMarks = 41;
 let studentResult = grade(studentMarks);
 console.log('The Result Is :', studentResult);
