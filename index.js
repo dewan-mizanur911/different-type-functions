@@ -5,7 +5,7 @@ function celciusToFarenheit(celcius){
 }
 let temparatureInCelcius = 32;
 let myFarenheit = celciusToFarenheit(temparatureInCelcius);
-console.log('Converted', temparatureInCelcius,'degree celcius to farenheit :' , myFarenheit);
+// console.log('Converted', temparatureInCelcius,'degree celcius to farenheit :' , myFarenheit);
 
 // 2. farenheitToCelcius
 function farenheitToCelcius(farenheit) {
@@ -15,7 +15,7 @@ function farenheitToCelcius(farenheit) {
 }
 let temperatureInFarenheit = 65;
 let myCelcius = farenheitToCelcius(temperatureInFarenheit);
-console.log('Converted', temperatureInFarenheit, 'farenheit to Celcius :', myCelcius);
+// console.log('Converted', temperatureInFarenheit, 'farenheit to Celcius :', myCelcius);
 
 // 3. simple interest calculation  formula
 function simpleInterest(principal, rate, time){
@@ -27,7 +27,7 @@ let moneyBorrowed = 10000;
 let interestRate = 0.05;
 let givenTime = 3;
 let totalPrincipalAfterInterest = simpleInterest(moneyBorrowed, interestRate, givenTime);
-console.log('Total Principal with Simple Interest after', givenTime, 'years is', totalPrincipalAfterInterest);
+// console.log('Total Principal with Simple Interest after', givenTime, 'years is', totalPrincipalAfterInterest);
 
 // 4. compound interest formula
 function compoundInterest(principal, rate, time){
@@ -36,7 +36,7 @@ function compoundInterest(principal, rate, time){
     return totalAmount;
 }
 let totalCompoundedPrincipal = compoundInterest(moneyBorrowed, interestRate, givenTime);
-console.log('Total Principal with Compound Interest after', givenTime, 'years is', totalCompoundedPrincipal);
+// console.log('Total Principal with Compound Interest after', givenTime, 'years is', totalCompoundedPrincipal);
 
 // 4. grade calculation
 function grade(marks){
@@ -62,4 +62,4 @@ function grade(marks){
 }
 let studentMarks = 41;
 let student = grade(studentMarks);
-console.log('The  Is :', student);
+// console.log('The  Is :', student);
