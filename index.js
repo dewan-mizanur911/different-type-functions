@@ -40,33 +40,26 @@ console.log('Total Principal with Compound Interest after', givenTime, 'years is
 
 // 4. grade calculation
 function grade(marks){
-    let result;
     if(marks >= 80 && marks <= 100){
-        result = 'A+';
-        return result;
+        return  'A+';
     }
     else if(marks >= 70 && marks <= 79){
-        result = 'A';
-        return result;
+        return  'A';
     }
     else if(marks >= 60 && marks <= 69){
-        result = 'A-';
-        return result;
+        return  'A-';
     }
     else if(marks >= 50 && marks <= 59){
-        result = 'B';
-        return result;
+        return  'B';
     }
     else if(marks >= 40 && marks <= 49){
-        result = 'C';
-        return result;
+        return  'C';
     }
     else if(marks >= 33 && marks <= 39){
-        result = 'D';
-        return result;
+        return  'D';
     }
     return 'F';
 }
 let studentMarks = 41;
-let studentResult = grade(studentMarks);
-console.log('The Result Is :', studentResult);
+let student = grade(studentMarks);
+console.log('The  Is :', student);
